@@ -51,3 +51,7 @@
 3. **Performance**
     - [ ] The system must ensure high performance with minimal downtime, providing a responsive and reliable user experience.
     - [ ] Key operations, such as billing processing and real-time data updates, should be completed within acceptable time frames (e.g., billing generation within 2 minutes).
+  
+4. **Maintainability**
+    - [ ] The system will be maintain every day.
+    - [ ] It will be check and maintain less than a day.
