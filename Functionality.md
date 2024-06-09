@@ -3,40 +3,37 @@
 ## Functional Requirements
 
 1. **Customer Account Management**
-    - [ ] The system must allow the company to create, update, and manage customer accounts.
-    - [ ] The company should be able to access customer account details, billing history, and usage statistics.
+    - [ ] The system must allow technician to create, update, and manage customer accounts online.
+    - [ ] Company should be able to view their User account details, billing history, and usage statistics.
 
-2. **Billing and Payment Processing**
+2. **Billing Processing**
     - [ ] The system must generate accurate monthly bills for customers based on their energy consumption.
-    - [ ] The company should be able to manage various payment methods (credit/debit card, bank transfer, etc.).
 
-3. **Energy Usage Monitoring**
-    - [ ] The system must provide real-time energy usage data for internal analysis.
-    - [ ] The company should receive alerts and notifications for unusual energy consumption patterns.
+3. **Energy Usage Monitoring (Only for Smart Meter)**
+    - [ ] The system must provide real-time energy usage data to the Company.
 
-4. **Service Requests and Scheduling**
-    - [ ] The system must allow the company to manage service requests such as new connections, maintenance, or repairs.
-    - [ ] The company should be able to schedule appointments and track the status of these requests.
-
-5. **Outage Management and Reporting**
+4. **Outage Management and Reporting**
     - [ ] The system must detect and report power outages automatically.
-    - [ ] The company should be able to manage outage reports and provide real-time updates on restoration efforts.
+    - [ ] Able to notify company offices nearby the area where the outage happens to dispatch technician.
 
-6. **Tariff Management**
-    - [ ] The system must support the creation and management of multiple tariff plans.
-    - [ ] It should provide detailed information on each tariff plan, including rates and conditions.
+5. **Tariff Management**
+    - [ ] The system must support tariff changes and notify customer in advance.
+    - [ ] Able to support custom temporary tariff for certain enviromental crisis (Extreme Weather Temperature)
 
-7. **Customer Support Integration**
-    - [ ] The system should provide multiple channels for customer support, including live chat, email, and phone.
+6. **Customer Support Integration**
     - [ ] It should integrate with a CRM system to track customer interactions and resolve issues efficiently.
 
-8. **Regulatory Compliance and Reporting**
+7. **Regulatory Compliance and Reporting**
     - [ ] The system must ensure compliance with local, state, and federal regulations.
     - [ ] It should generate necessary compliance reports and allow for auditing by regulatory bodies.
 
-9. **Energy Conservation Programs**
+8. **Energy Conservation Programs**
     - [ ] The system must support initiatives for promoting energy conservation among customers.
-    - [ ] The company should have access to tools and tips for reducing energy consumption and promoting incentive programs.
+    - [ ] High power usage can be investigated by the company to help customer reduce their electricity usage, with consent.
+
+9. **Inventory Managements**
+    - [ ] The system able to keep track of inventory items (such as Electric Meter).
+    - [ ] Alert the technician of parts that are low in count.
 
 ## Non-Functional Requirements
 
